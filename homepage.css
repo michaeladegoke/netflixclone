@@ -1,0 +1,314 @@
+/*----general body styling----*/
+body {
+
+    
+    background-color: #000000;
+    font-family: Verdana, 'Times New Roman', Times, serif, Tahoma, sans-serif;
+    margin: -10PX;
+    padding: 0pX;
+    color: white;
+    
+}
+
+/*---------image as background--------*/
+#imagediv {
+    position: relative;
+    background-image: url("NETFLIX11.jpg");
+    width: 100%;
+    height: 100%;
+    margin-top: -50px;
+    border-bottom: 4px solid #666666;
+}
+
+/*---------Netflix test stlying--------*/
+#textone {
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 50px;
+    margin-left: 100px;
+}
+
+/*------button Section------*/
+#signoutbutton {
+    background-color: red;
+    float: right;
+    color: #ffffff;
+    margin-right: 100px;
+}
+
+.signupbutton {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: -50px;
+}
+
+
+.signupbuton {
+    text-align: center;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: red;
+    height: 40px;
+}
+
+/*----------header section------------*/
+h3 {
+    text-align: center;
+    font-weight: lighter;
+    line-height: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 150px;
+    line-height: 15px;
+    font-size: 60px;
+}
+
+/*---------- section2 column1------------*/
+.sectiontwocolumn1 {
+    width: 50%;
+    height: 150px;
+    margin-top: 90px;
+    
+}
+
+.sectiontwocolumn2 {
+    width: 50%;
+    float: right;
+    height: 150px;
+}
+
+.header2 {
+    font-size: 40px;
+    margin-left: -50px;
+}
+
+.imgsection2 {
+    
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 73px;
+}
+/*-------divborder------*/
+.divborder {
+    background-color: #666666;
+    width: 100%;
+    height: 4px;
+    opacity: 0.6;
+}
+
+/*---------- section3------------*/
+
+.section3column1 {
+    width: 50%;
+    height: 250px;
+}
+
+.section3column2 {
+    width: 50%;
+    height: 250px;
+    margin-top: 70px;
+    float: right;
+    text-align: center;
+    margin-right: 50px;    
+}
+
+.imgsection3 {
+    
+    max-width: 350px;
+    max-height: 350px;
+    margin-left: 100px;
+
+}
+
+
+.imgsection2 {
+    
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 73px;
+}
+
+.header3 {
+    line-height: 30px;
+    text-align: left;
+    margin-right: 50px;
+    margin-left: 60px;
+    font-size: 180%;
+}
+
+.content3 {
+
+    margin-left: 60px;
+    margin-top: -10px;
+    text-align: left;
+    margin-right: 80px;
+    border-bottom: 80px;
+    margin-bottom: 20px;
+
+}
+
+/*---------- section4 column1------------*/
+.section4column1 {
+    width: 50%;
+    height: 150px;
+    margin-top: 70px;
+    margin-bottom: -20px;
+
+    
+}
+
+.content2 {
+
+    margin-left: 120px;
+    margin-top: -10px;
+    text-align: left;
+    margin-right: 80px;
+    border-bottom: 80px;
+}
+.content4 {
+    border-bottom: 80px;
+    margin-left: 108px;
+    margin-top: 30px;
+
+}
+
+/*---------- section5 column1------------*/
+.content5 {
+    border-bottom: 80px;
+    margin-top: 30px;
+    text-align: left;
+    margin-right: 150px;
+    margin-left: 60px;
+    margin-top: -10px;
+}
+
+/*---------- accordion section------------*/
+.accordion {
+    width: 60%;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+.accordion-item {
+    background-color: #666666;
+    color: #fff;
+    margin: 1rem 0;
+}
+
+.accordion-item-header{
+padding: 0.5rem 1rem 0.5rem 1rem;
+min-height: 2.5rem;
+line-height: 1.25rem;
+font-weight: bold;
+display: flex;
+align-items: center;
+position: relative;
+cursor: pointer;
+}
+
+.accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+}
+
+.accordion-item-header.active::after {
+    content: "\2212";
+}
+
+.accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease out;
+}
+
+.accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid #000000;
+}
+
+.para7 {
+    text-align: center;
+}
+
+.divstart {
+    text-align: center;
+  margin-bottom: 50px;  
+}
+
+.regarea {
+    width: 40%;
+    height: 52px;
+    color: #000000;
+   
+    
+}
+
+.gtstarted {
+    background-color: red;
+    width: 150px;
+    height: 55px;
+    color: #ffffff;
+    font-weight: 900;
+    margin-left: -5px;
+    margin-top: 5px;
+    font-size: 15px; 
+   
+}
+
+
+.container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.column {
+    flex: 33.33%;
+    height: 200px;
+    margin-left: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+ ul {
+    list-style-type: none;
+    text-align: left;
+    line-height: 30px;
+    padding-left: -20px;
+    }
+
+ ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 10px;
+        font-weight: lighter;
+        opacity: 0.6;
+    }
+
+    ul li a:hover{
+        text-decoration: none;
+        color: #000000;
+        font-size: 10px;
+        font-weight: lighter;
+        opacity: 0.6;
+        background-color: #ffffff;
+        padding: 5px;
+        border-radius: 3px;
+    }
+
+ 
+  #image {
+      width: 250px;
+      height: 250px;
+      transition: 0.3s;
+      margin: 0 auto;
+      padding-left: 180px;
+  }
